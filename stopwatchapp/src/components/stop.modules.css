@@ -1,0 +1,34 @@
+#stop {
+    height: 200px;
+    width: 98%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #outerdiv {
+    text-align: center;
+    font-weight: bold;
+    height: 100%;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .btn {
+    border-radius: 10px;
+    font-size: large;
+    background-color: teal;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .spanclass {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .spandiv {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: larger;
+  }
+  

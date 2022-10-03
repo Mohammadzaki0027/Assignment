@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.finaldiv {
+  width: 100%;
+  height: 100%;
+}
+.tab1 {
+  width: 48%;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tab2 {
+  width: 48%;
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tab2:hover{
+  background-color: #B565A7
+}
+.tab1:hover{
+  background-color: #B565A7
+}
+.middle {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.outerdiv {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.tab2div {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}

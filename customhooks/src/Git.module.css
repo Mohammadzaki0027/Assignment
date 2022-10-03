@@ -1,0 +1,47 @@
+.gituser {
+  width: 50%;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+.avatarurl {
+  width: 150px;
+  height: 100px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+
+    margin: auto;
+  }
+  .container {
+    text-align: center;
+  }
+  .app {
+    width: 100%;
+    margin: auto;
+  }
+  .gituser {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .avatarurl {
+    width: 100px;
+    height: 100px;
+  }
+  .gituser h1 {
+    font-size: smaller;
+  }
+}
